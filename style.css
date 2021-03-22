@@ -1,0 +1,122 @@
+body {
+  font-family: 'Optima';
+  margin: 1.5em;
+  background-color: #FAF0E6;
+  color: #D2B48C;
+}
+
+h1 {
+  font-family: 'Optima';
+  font-style: normal;
+  color: #DEB887;
+}
+
+button {
+  padding: 15px;
+  border-radius:10px;
+  font-family: 'Optima';
+  font-size: 15px;
+  color: black;
+}
+
+#gameButtonArea > button{
+  width: 140px;
+  height: 140px;
+  margin: 5px;
+  border-radius:70px;
+  position:absolute;
+}
+
+#button1 {
+  background: #B0C4DE;
+  top:280px;
+  left:150px;
+}
+
+#button1:active, #button1.lit{
+  background: #708090;
+}
+
+#button2 {
+  background: #BF764C;
+  top:170px;
+  left:300px; 
+}
+
+#button2:active, #button2.lit {
+  background: #915335;
+}
+
+#button3 {
+  background: #9AA283;
+  top:280px;
+  left:450px;
+}
+
+#button3:active, #button3.lit {
+  background: #556B2F;
+}
+
+#button4 {
+  background: #c0B4A8;
+  top:323px;
+  left:300px;
+}
+
+#button4:active, #button4.lit {
+  background: #9D928A;
+}
+
+#button5 {
+  background: #DAA520;
+  top:445px;
+  left:200px;
+  }
+
+#button5:active, #button5.lit {
+  background: #A88905;
+}
+
+#button6 {
+  background: #CD5C5C;
+  top:445px;
+  left:400px;
+}
+
+#button6:active, #button6.lit {
+  background: #8D2C19;
+}
+
+.hidden {
+  display: none;
+}
+
+h2 {
+  font-family: 'Optima';
+  font-style: normal;
+  color: #6D6875;
+  position: absolute;
+  top:610px;
+}
+
+#lives > img{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top:625px;
+}
+
+#heart1 {
+  left:110px;
+}
+
+#heart2 {
+  left:170px;
+}
+
+#heart3 {
+  left:230px;
+}
+
+
+
